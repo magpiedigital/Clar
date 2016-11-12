@@ -1,6 +1,6 @@
-#watch7-sidebar {
+#watch7-sidebar, #watch-discussion {
 	display: none !important;
 }
-#watch-discussion {
-	display: none !important;
+#feed, #browse-items-primary {
+	display: none;
 }
