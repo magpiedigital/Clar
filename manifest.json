@@ -1,0 +1,13 @@
+{
+  "name": "Clar",
+  "version": "0.1",
+  "description": "Removes addictive elements from websites",
+
+  "content_scripts": [{
+    "matches": ["*://*.facebook.com/*"],
+    "js": ["jquery.min.js", "kill.js"],
+    "run_at": "document_start"
+  }],
+
+  "manifest_version": 2
+}
