@@ -4,8 +4,9 @@
   "description": "Removes addictive elements from websites",
 
   "content_scripts": [{
-    "matches": ["*://*.facebook.com/*"],
+    "matches": ["*://*.facebook.com/*", "*://*.youtube.com/*"],
     "js": ["jquery.min.js", "kill.js"],
+    "css": ["youtube.css"],
     "run_at": "document_start"
   }],
 
