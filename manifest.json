@@ -7,6 +7,10 @@
            "48": "ensircle48.png",
           "128": "ensircle128.png" },
 
+  "browser_action": {
+    "default_icon": "ensircle128.png"
+  },
+
   "content_scripts": [{
     "matches": ["*://*.facebook.com/*", "*://*.youtube.com/*"],
     "js": ["jquery.min.js", "kill.js"],
