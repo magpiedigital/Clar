@@ -3,6 +3,10 @@
   "version": "0.1",
   "description": "Removes addictive elements from websites",
 
+  "icons": { "16": "ensircle16.png",
+           "48": "ensircle48.png",
+          "128": "ensircle128.png" },
+
   "content_scripts": [{
     "matches": ["*://*.facebook.com/*", "*://*.youtube.com/*"],
     "js": ["jquery.min.js", "kill.js"],
